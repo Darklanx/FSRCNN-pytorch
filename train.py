@@ -13,7 +13,9 @@ from models import FSRCNN
 from datasets import TrainDataset, EvalDataset
 from utils import AverageMeter, calc_psnr
 
-
+'''
+python3 train.py --train-file train.h5 --eval-file eval.h5 --scale 3 --outputs-dir model 
+'''
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--train-file', type=str, required=True)

@@ -86,3 +86,6 @@ if __name__ == '__main__':
         train(args)
     else:
         eval(args)
+'''
+python3 prepare.py --images-dir /home/hesu215/a-PyTorch-Tutorial-to-Super-Resolution/dataset/training_hr_images --output-path ./train.h5 --scale 3 --with-aug 
+'''
